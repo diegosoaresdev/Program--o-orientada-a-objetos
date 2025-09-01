@@ -1,0 +1,27 @@
+# Ignora arquivos de compilação do Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignora pastas de output da compilação
+bin/
+out/
+build/
+
+# Ignora arquivos de IDEs populares (VS Code, IntelliJ, Eclipse)
+.vscode/
+.idea/
+.project
+.classpath
+*.iml
+*.iws
+*.ipr
+
+# Ignora arquivos temporários e do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos com dados sensíveis (exemplo)
+# secrets.properties
+# *.env
