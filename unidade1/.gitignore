@@ -1,0 +1,19 @@
+# Exclui arquivos compilados e binários
+*.class
+*.jar
+*.war
+/bin/
+/out/
+
+# Exclui arquivos e pastas da IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Exclui arquivos de configuração com segredos
+# O nome do arquivo depende do seu projeto, mas é uma boa prática
+# ter um arquivo de configuração para variáveis de ambiente
+.env
+config.properties
+/secrets/
