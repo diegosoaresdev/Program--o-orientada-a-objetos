@@ -1,0 +1,28 @@
+# Exclui arquivos de compilação do Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Exclui pastas de output da compilação e binários
+bin/
+out/
+
+# Exclui arquivos de projetos de IDEs
+.vscode/
+.idea/
+.project
+.classpath
+*.iml
+*.iws
+*.ipr
+
+# Exclui arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Exclui arquivos com dados sensíveis
+# Se você tivesse chaves de API ou senhas, listaria os arquivos aqui
+# Exemplo:
+# secrets.properties
+# *.env
